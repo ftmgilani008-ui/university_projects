@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_83cdeccee2864b778d9117665e3140c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_83cdeccee2864b778d9117665e3140c2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_83cdeccee2864b778d9117665e3140c2 = L.map(
+                "map_83cdeccee2864b778d9117665e3140c2",
+                {
+                    center: [35.6892, 51.389],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2a2571b15da6a30e9ab1a7b23e439fa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d2a2571b15da6a30e9ab1a7b23e439fa.addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+            var marker_fa6b61917edec6c665360fcaee91c06a = L.marker(
+                [35.7448, 51.3758],
+                {
+}
+            ).addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+            var icon_59bfdd689a1221ddcb13f9e6601b5fb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac5632ccea847439610e0a0faf16408e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9ad72ee61d98045f7ef08e622e8b25c = $(`<div id="html_d9ad72ee61d98045f7ef08e622e8b25c" style="width: 100.0%; height: 100.0%;"><b>برج میلاد</b></div>`)[0];
+                popup_ac5632ccea847439610e0a0faf16408e.setContent(html_d9ad72ee61d98045f7ef08e622e8b25c);
+            
+        
+
+        marker_fa6b61917edec6c665360fcaee91c06a.bindPopup(popup_ac5632ccea847439610e0a0faf16408e)
+        ;
+
+        
+    
+    
+                marker_fa6b61917edec6c665360fcaee91c06a.setIcon(icon_59bfdd689a1221ddcb13f9e6601b5fb2);
+            
+    
+            tile_layer_d2a2571b15da6a30e9ab1a7b23e439fa.addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+                marker_fa6b61917edec6c665360fcaee91c06a.setIcon(icon_59bfdd689a1221ddcb13f9e6601b5fb2);
+            
+    
+            var marker_5ff36b66c322c79fd439a2ae32b063f3 = L.marker(
+                [35.7638, 51.4166],
+                {
+}
+            ).addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+            var icon_b0af39e007fa0c873d3987026275e202 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b70bd15dd7f7fb5e8bc4e3fab8ee2dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2be5d4ec0c4f1586ed0e8407ea9ba85 = $(`<div id="html_c2be5d4ec0c4f1586ed0e8407ea9ba85" style="width: 100.0%; height: 100.0%;"><b>پارک آب و آتش</b></div>`)[0];
+                popup_5b70bd15dd7f7fb5e8bc4e3fab8ee2dc.setContent(html_c2be5d4ec0c4f1586ed0e8407ea9ba85);
+            
+        
+
+        marker_5ff36b66c322c79fd439a2ae32b063f3.bindPopup(popup_5b70bd15dd7f7fb5e8bc4e3fab8ee2dc)
+        ;
+
+        
+    
+    
+                marker_5ff36b66c322c79fd439a2ae32b063f3.setIcon(icon_b0af39e007fa0c873d3987026275e202);
+            
+    
+            tile_layer_d2a2571b15da6a30e9ab1a7b23e439fa.addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+                marker_fa6b61917edec6c665360fcaee91c06a.setIcon(icon_59bfdd689a1221ddcb13f9e6601b5fb2);
+            
+    
+                marker_5ff36b66c322c79fd439a2ae32b063f3.setIcon(icon_b0af39e007fa0c873d3987026275e202);
+            
+    
+            var marker_7fbd9313385c0bbbf962a2e982c07a40 = L.marker(
+                [35.6997, 51.337],
+                {
+}
+            ).addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+            var icon_896bb2cb9bf3ae8ff8ffdc48e7196dfd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a481f939f49c0ea232196096ae305d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb67d08ad7b04d7ea6f15d2b447f4289 = $(`<div id="html_cb67d08ad7b04d7ea6f15d2b447f4289" style="width: 100.0%; height: 100.0%;"><b>برج آزادی</b></div>`)[0];
+                popup_9a481f939f49c0ea232196096ae305d6.setContent(html_cb67d08ad7b04d7ea6f15d2b447f4289);
+            
+        
+
+        marker_7fbd9313385c0bbbf962a2e982c07a40.bindPopup(popup_9a481f939f49c0ea232196096ae305d6)
+        ;
+
+        
+    
+    
+                marker_7fbd9313385c0bbbf962a2e982c07a40.setIcon(icon_896bb2cb9bf3ae8ff8ffdc48e7196dfd);
+            
+    
+            tile_layer_d2a2571b15da6a30e9ab1a7b23e439fa.addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+                marker_fa6b61917edec6c665360fcaee91c06a.setIcon(icon_59bfdd689a1221ddcb13f9e6601b5fb2);
+            
+    
+                marker_5ff36b66c322c79fd439a2ae32b063f3.setIcon(icon_b0af39e007fa0c873d3987026275e202);
+            
+    
+                marker_7fbd9313385c0bbbf962a2e982c07a40.setIcon(icon_896bb2cb9bf3ae8ff8ffdc48e7196dfd);
+            
+    
+            var marker_ce09859c39591abf53c12a0eb27e90b8 = L.marker(
+                [35.7199, 51.4121],
+                {
+}
+            ).addTo(map_83cdeccee2864b778d9117665e3140c2);
+        
+    
+            var icon_bc501e069fca723c1d8c0de6586c445e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2048259b6a844fd66ec631afdc81c134 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a584f705c84063bd31510fd0ddacf37e = $(`<div id="html_a584f705c84063bd31510fd0ddacf37e" style="width: 100.0%; height: 100.0%;"><b>میدان ولیعصر</b></div>`)[0];
+                popup_2048259b6a844fd66ec631afdc81c134.setContent(html_a584f705c84063bd31510fd0ddacf37e);
+            
+        
+
+        marker_ce09859c39591abf53c12a0eb27e90b8.bindPopup(popup_2048259b6a844fd66ec631afdc81c134)
+        ;
+
+        
+    
+    
+                marker_ce09859c39591abf53c12a0eb27e90b8.setIcon(icon_bc501e069fca723c1d8c0de6586c445e);
+            
+</script>
+</html>
