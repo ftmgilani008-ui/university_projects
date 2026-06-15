@@ -5,21 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تکالیف دانشگاهی من</title>
     <style>
-        body { font-family: Tahoma; text-align: center; margin: 50px; }
-        h1 { color: #2c3e50; }
-        ul { list-style: none; padding: 0; }
-        li { margin: 15px 0; font-size: 18px; }
-        a { color: #3498db; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body { 
+            font-family: Tahoma, sans-serif; 
+            text-align: center; 
+            margin: 40px; 
+            background: #f8f9fa; 
+            color: #333;
+        }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .project {
+            display: inline-block;
+            margin: 15px;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 300px;
+            transition: 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        a { 
+            text-decoration: none; 
+            color: #3498db; 
+            font-size: 18px;
+            font-weight: bold;
+        }
+        a:hover { color: #2980b9; }
     </style>
 </head>
 <body>
-    <h1>تکالیف دانشگاهی من</h1>
-    <p>لینک‌های پروژه‌ها:</p>
-    <ul>
-        <li><a href="html/">📄 پروژه داخل فولدر html</a></li>
-        <li><a href="qgis2web/">🗺️ نقشه‌ها (qgis2web)</a></li>
-        <!-- اگر فولدرهای دیگه داری، اینجا اضافه کن -->
-    </ul>
+    <div class="container">
+        <h1>🎓 تکالیف دانشگاهی </h1>
+        <p style="font-size: 18px; margin-bottom: 30px;">تمام پروژه‌ها - آماده تحویل به استاد</p>
+
+        <div class="project">
+            <a href="html/">📄 سایت دانشگاهی (HTML)</a>
+        </div>
+
+        <div class="project">
+            <a href="qgis2web/">🗺️ نقشه‌ها (qgis2web)</a>
+        </div>
+
+        <div class="project">
+            <a href="atlas/">📍 Atlas</a>
+        </div>
+
+        <div class="project">
+            <a href="foliom/">📖 Foliom</a>
+        </div>
+
+    </div>
+
+    <p style="margin-top: 60px; color: #7f8c8d; font-size: 15px;">
+        تمام تکالیف دانشگاهی — خرداد ۱۴۰۵
+    </p>
 </body>
 </html>
