@@ -1,0 +1,38 @@
+<bookinfo id="Atlas_of_Water_1401-08-23-for_site" autoFlipSeconds="20" autoMoveAfterZoom="false" bgColor="#454545 " bgImage="content/images/image-4.jpg" shadow="true" pageWidth="1358" pageHeight="1772" flipSpeedBoost="80" title="Atlas_of_Water_1401-08-23-for site" author="" zipIcon="content/images/iconZip.gif" exeIcon="content/images/iconExe.gif" companyUrl="http://www.ePageCreator.net" gateway="http://flipcreator.net/share/email.php" shareUrl="index.html" bookmarkWidth="18" bookmarkHeight="150" bookmarkFontSize="14" defaultZoomScale="2" clickToZoom="singleclick" windowColor="#15416E " rightToLeft="true" autoFlip="true" fitScreenAfterZoom="false" zoomAfterLoaded="false" limitTo100="false" showZoomBox="true" mouseWheelZoom="false" flipArrow="false" bgPosition="stretch" bookSize="10" thickness="0" companyName="" companyAddress="" tel="" email="" loadingLogo="content/images/Screenshot 2026-04-16 200420.png" zipUrl="" exeUrl="" fullScreen="false" hardCover="false" pdfUrl="" lic="oaugqJa1pKKgn5ps" password="gbCVb3avoa15" analyticsUA="">
+	<leftmenu showTabBackground="false" visible="true" hideAfterZoom="false">
+		<issues visible="false" icon="content/images/theme/library.png"/>
+		<toc visible="true" icon="content/images/theme/toc.png"/>
+		<thumbs visible="true" icon="content/images/theme/thumb.png"/>
+		<email visible="true" icon="content/images/theme/email.png"/>
+		<sns visible="true" icon="content/images/theme/share.png"/>
+		<print visible="true" icon="content/images/theme/print.png"/>
+		<pdf visible="true" singlePage="true" doublePage="true" entirePDF="false" icon="content/images/theme/pdf.png"/>
+		<download visible="false" icon="content/images/theme/download.png"/>
+		<setting visible="true" icon="content/images/theme/settings.png"/>
+		<about visible="true" icon="content/images/theme/about.png"/>
+		<close visible="false" icon="content/images/theme/close.png"/></leftmenu>
+	<bottommenu background="content/images/menuBackground.png" visible="true" iconSameSize="true" position="top" hideAfterZoom="false" showBackground="false" autoHideOnFullScreen="true">
+		<help visible="true" url="http://www.ePageCreator.net/readerhelp/index.html" icon="content/images/theme/help.png"/>
+		<info visible="true" url="http://www.ePageCreator.net" icon="content/images/theme/info.png"/>
+		<zoom visible="true" mode="normal" icon="content/images/theme/zoomin.png" dicon="content/images/theme/zoomout.png"/>
+		<autoflip visible="true" icon="content/images/theme/autoflip.png"/>
+		<search visible="true" icon="content/images/theme/search.png"/>
+		<highlight visible="true" icon="content/images/theme/highlight.png"/>
+		<bookmark visible="true" icon="content/images/theme/bookmark.png"/>
+		<notes visible="true" icon="content/images/theme/note.png"/>
+		<fullscreen visible="true" icon="content/images/theme/fullscreen.png" dicon="content/images/theme/exitfullscreen.png"/>
+		<sound visible="false" icon="content/images/theme/audioon.png" dicon="content/images/theme/audiooff.png"/><back visible="false" icon="content/images/theme/back.png"/><forward visible="false" icon="content/images/theme/forward.png"/><firstpage icon="content/images/theme/first.png"/><prevpage icon="content/images/theme/previous.png"/><nextpage icon="content/images/theme/next.png"/><lastpage icon="content/images/theme/last.png"/></bottommenu>
+	<contextmenu>
+	</contextmenu>
+	<tks>
+		<tk begin="1" end="2" value="1"/>
+		<tk begin="3" end="5" value="2"/>
+		<tk begin="6" end="10" value="3"/>
+		<tk begin="11" end="20" value="4"/>
+		<tk begin="21" end="30" value="5"/>
+		<tk begin="31" end="40" value="6"/>
+		<tk begin="41" end="60" value="7"/>
+		<tk begin="61" end="120" value="8"/>
+		<tk begin="121" end="0" value="9"/>
+	</tks>
+	<bottomthumb bgAlpha="0" bgColor="#000000" visible="true"/><tooltip bgColor="#800000 " fgColor="#FFFFFF " showZoomTip="true" showFlipTip="true"/><bookLogo url="content/images/Screenshot 2026-04-16 200420.png" href="https://www.umz.ac.ir/"/></bookinfo>
